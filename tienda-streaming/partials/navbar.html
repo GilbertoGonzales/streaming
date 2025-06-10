@@ -1,0 +1,35 @@
+<nav class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+
+        <!-- Logo + Nombre -->
+        <div class="flex items-center space-x-3">
+            <img src="/assets/imagenes/logo.png" alt="Logo" class="w-8 h-8 object-contain">
+            <span class="text-xl font-bold leading-none">Streaming Plus</span>
+        </div>
+
+        <!-- Botón hamburguesa -->
+        <button id="menu-toggle" class="sm:hidden focus:outline-none">
+            <svg class="w-6 h-6 fill-current text-white" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M4 5h16v2H4V5zm0 6h16v2H4v-2zm0 6h16v2H4v-2z" clip-rule="evenodd" />
+            </svg>
+        </button>
+
+        <!-- Menú grande (escritorio) -->
+        <ul class="hidden sm:flex space-x-6 text-sm font-medium">
+            <li><a href="/index.html" class="hover:text-amber-300">Inicio</a></li>
+            <li><a href="/pages/servicios.html" class="hover:text-amber-300">Servicios</a></li>
+            <li><a href="/pages/faq.html" class="hover:text-amber-300">FAQ</a></li>
+            <li><a href="/pages/contacto.html" class="hover:text-amber-300">Contacto</a></li>
+        </ul>
+    </div>
+
+    <!-- Menú móvil --> 
+    <div id="mobile-menu" class="sm:hidden hidden px-4 pb-4">
+        <ul class="flex flex-col space-y-2 text-sm font-medium">
+            <li><a href="/index.html" class="block hover:text-amber-300">Inicio</a></li>
+            <li><a href="/pages/servicios.html" class="block hover:text-amber-300">Servicios</a></li>
+            <li><a href="/pages/faq.html" class="block hover:text-amber-300">FAQ</a></li>
+            <li><a href="/pages/contacto.html" class="block hover:text-amber-300">Contacto</a></li>
+        </ul>
+    </div>
+</nav>

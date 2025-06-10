@@ -1,0 +1,67 @@
+/* index.css – Estilos personalizados y responsive móvil */
+
+/* Iconos de plataformas */
+.platform-icon {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 1rem;
+    object-fit: contain;
+}
+
+/* Botón principal en sección HERO */
+.hero-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Espaciado uniforme en secciones */
+.section-spacing {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Botón flotante de WhatsApp */
+.whatsapp-button {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+}
+
+/* Responsive para pantallas menores a 640px */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .hero-button {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .section-spacing {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .platform-icon {
+        width: 96px;
+        height: 96px;
+    }
+
+    .whatsapp-button {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+        bottom: 1rem;
+        right: 1rem;
+    }
+}

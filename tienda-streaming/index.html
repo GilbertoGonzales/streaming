@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Streaming Premium - Inicio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
+
+    <!-- HERO -->
+    <header class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20 text-center">
+        <h1 class="text-5xl font-bold mb-4">Cuentas de Streaming Premium</h1>
+        <p class="text-xl mb-6">Netflix, Spotify, Disney+ y más a precios imbatibles</p>
+        <a href="pages/servicios.html"
+            class="hero-button bg-white text-indigo-700 px-6 py-3 rounded-lg shadow hover:bg-gray-200 transition">
+            Ver Catálogo Completo
+        </a>
+    </header>
+
+
+    <!-- PLATAFORMAS POPULARES -->
+    <section class="section-spacing max-w-6xl mx-auto px-6 py-12">
+        <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Plataformas Populares</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <!-- Netflix -->
+            <div class="bg-white p-6 rounded-lg shadow text-center">
+                <img src="assets/imagenes/netflix.png" alt="Netflix" class="platform-icon">
+                <h3 class="text-lg font-semibold text-indigo-700">Netflix UHD</h3>
+                <p class="text-gray-500">Solo $2.99 / mensual</p>
+            </div>
+
+            <!-- Spotify -->
+            <div class="bg-white p-6 rounded-lg shadow text-center">
+                <img src="assets/imagenes/spotify.jpg" alt="Spotify" class="platform-icon">
+                <h3 class="text-lg font-semibold text-indigo-700">Spotify Premium</h3>
+                <p class="text-gray-500">Solo $1.99 / mensual</p>
+            </div>
+
+            <!-- Disney+ -->
+            <div class="bg-white p-6 rounded-lg shadow text-center">
+                <img src="assets/imagenes/disney.jpg" alt="Disney+" class="platform-icon">
+                <h3 class="text-lg font-semibold text-indigo-700">Disney+</h3>
+                <p class="text-gray-500">Solo $2.49 / mensual</p>
+            </div>
+
+            <!-- Max -->
+            <div class="bg-white p-6 rounded-lg shadow text-center">
+                <img src="assets/imagenes/max.jpg" alt="Max" class="platform-icon">
+                <h3 class="text-lg font-semibold text-indigo-700">Max</h3>
+                <p class="text-gray-500">Solo $2.49 / mensual</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="bg-white py-12 text-center">
+        <h2 class="text-2xl font-bold mb-6">¿Por qué elegirnos?</h2>
+        <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-6 px-6 text-gray-700">
+            <div>
+                <h3 class="font-semibold text-indigo-600">Precios Accesibles</h3>
+                <p>Planes desde menos de $3 al mes.</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-indigo-600">Soporte Directo</h3>
+                <p>Resolvemos tus dudas por WhatsApp o Telegram.</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-indigo-600">Entrega Inmediata</h3>
+                <p>Recibe tu cuenta en minutos tras el pago.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gradient-to-r from-indigo-800 to-purple-800 text-white py-4">
+        <div
+            class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-300 space-y-3 md:space-y-0">
+            <div class="text-center md:text-left">
+                <span class="font-semibold text-white">🎬 Streaming Plus</span> — Cuentas Premium desde 2025
+            </div>
+            <div class="flex space-x-4">
+                <a href="/index.html" class="hover:text-amber-300">Inicio</a>
+                <a href="/pages/servicios.html" class="hover:text-amber-300">Servicios</a>
+                <a href="/pages/faq.html" class="hover:text-amber-300">FAQ</a>
+                <a href="/pages/contacto.html" class="hover:text-amber-300">Contacto</a>
+            </div>
+            <div class="text-center md:text-right">
+                © 2025 Todos los derechos reservados
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS del navbar -->
+    <script src="assets/js/scripts.js"></script>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/986246681" target="_blank"
+        class="whatsapp-button fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg z-50 transition-all flex items-center space-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+            <path
+                d="M20.52 3.48A12 12 0 003.48 20.52l-1.06 3.69 3.76-1A12 12 0 0020.52 3.48zM8.94 6.9l1.54-.08a1 1 0 01.8.38l1.6 2.13a1 1 0 01-.2 1.39l-.73.56a7 7 0 003.43 3.43l.56-.73a1 1 0 011.39-.2l2.13 1.6a1 1 0 01.38.8l-.08 1.54a1 1 0 01-1 1h-.11A10 10 0 018.94 6.9z" />
+        </svg>
+        <span class="hidden sm:inline">WhatsApp</span>
+    </a>
+</body>
+
+</html>
